@@ -36,7 +36,7 @@ Tickets flow into the Elasticsearch index through the pipeline; NOVA only reads 
 ![diagram 7](images/d7.png)
 
 ## 7. What we are covering
-Everything runs on localhost against real QA data: tenant 1286, the saved dashboard "Actions-Demo", date = Calendar Year 2023.
+Everything runs on QA with the October release builds: tenant 1286, the saved dashboard "Actions-Demo", date = Calendar Year 2023.
 
 ![diagram 8](images/d8.png)
 
@@ -54,6 +54,6 @@ Suggestions from PMs:
 - 
 
 ## 10. Real vs dummy data
-Real ticket, real index, real report service code. Test-only: the flag and module on QA tenant 1286, and the backend on localhost instead of QA.
+Real ticket, real index, real report service code, all running on QA. Test-only: the flag and module on QA tenant 1286.
 
 ![diagram 11](images/d11.png)
